@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular</title>
+    <p><b>Formular cu limbaje de programare</b></p>
+</head>
+<body>
+    <form action="pagina.php" name="nume-formular" method="post">
+        <input type="text" name="nume" size="20" value="" maxlength="10" />
+        <br /><br>
+        <input type="password" name="parola" size="20" value="" maxlength="10" />
+        <br /><br>
+        Alege curs:
+         php <input type="radio" name="curs" checked="checked" value="php"/>
+         html <input type="radio" name="curs" value="xhtml" /><br />
+        Preferinte:
+        html <input type="checkbox" name="bifeaza" value="xhtml" />
+        css <input type="checkbox" name="bifeaza2" checked="checked" value="css" />
+        php <input type="checkbox" name="bifeaza3" value="php" />
+        mysql 
+        <input type="checkbox" name="bifeaza4" checked="checked" value="mysql" />
+        <br /><br>
+        <input type="file" name="fisiere" /><br /><br>
+        <select name="alege"><br>
+        <option value="php">Php </option>
+        <option value="html">Html </option>
+        <option value="javascript">JavaScript </option>
+        <option value="mysql">MySql </option>
+        </select>
+        <br /><br>
+        <textarea name="casuta text" rows="3" cols="20"></textarea>
+        <br /><br>
+        <input type="radio" name="ceva" value="valoarea1" />
+        <input type="radio" name="ceva" value="valoarea2" />
+        <input type="radio" name="ceva" value="valoarea3" />
+        <input type="radio" name="ceva" value="valoarea4" /><br/><br>
+        php 
+        <input type="checkbox" name="bifeaza[]" checked="checked" value="php" />
+        mysql 
+        <input type="checkbox" name="bifeaza[]" checked="checked" value="mysql" />
+        xhtml 
+        <input type="checkbox" name="bifeaza[]" checked="checked" value="xhtml" /><br/><br>
+        <input type="button" name="buton" value="buton simplu" /><br /><br>
+        <input type="submit" name="trimite" value="Trimite datele" /><br /><br>
+        <input type="reset" value="Reseteaza" />
+        </form>
+</body>
+</html>
